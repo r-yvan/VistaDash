@@ -1,14 +1,8 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
-import Searchbar from "./Searchbar";
+import Layout from "./Layout";
 
 function App() {
-  return (
-    <div className="app">
-      <Searchbar/>
-      <Navbar />
-    </div>
-  );
+  return <Layout />;
 }
 
 export default App;

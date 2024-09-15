@@ -1,12 +1,23 @@
 import React from "react";
 
 const Navbar = () => {
-  const navComponents = ["Home", "Item 1", "Item 2", "Item 3", "Item 4"];
   return (
-    <div className="nav-bar">
-      {navComponents.map((navComponent) => (
-        <div className="nav-component">{navComponent}</div>
-      ))}
+    <div>
+      <div></div>
+      <div>
+        <p>Main Menu</p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div>
+        <p>Help & Support</p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 };
