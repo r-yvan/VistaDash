@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const Layout = ({ children: ReactNode }) => {
+const Layout = () => {
   return (
     <div>
-      <Topbar />
+      {/* <Topbar /> */}
       <Navbar />
-      <div>{children}</div>
+      {/* <div>{children}</div> */}
     </div>
   );
 };

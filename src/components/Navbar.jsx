@@ -2,40 +2,54 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="text-green-400">
       <div></div>
       <div>
         <p>Main Menu</p>
         <div>
           <div></div>
-          <div><p>Home</p></div>
+          <div>
+            <p>Home</p>
+          </div>
         </div>
         <div>
           <div></div>
-          <div><p>Dashboard</p></div>
+          <div>
+            <p>Dashboard</p>
+          </div>
         </div>
         <div>
           <div></div>
-          <div><p>Products</p></div>
+          <div>
+            <p>Products</p>
+          </div>
         </div>
         <div>
           <div></div>
-          <div><p>Invoice</p></div>
+          <div>
+            <p>Invoice</p>
+          </div>
         </div>
       </div>
       <div>
         <p>Help & Support</p>
         <div>
           <div></div>
-          <div><p>Settings</p></div>
+          <div>
+            <p>Settings</p>
+          </div>
         </div>
         <div>
           <div></div>
-          <div><p>Help & Center</p></div>
+          <div>
+            <p>Help & Center</p>
+          </div>
         </div>
         <div>
           <div></div>
-          <div><p>LogOut</p></div>
+          <div>
+            <p>LogOut</p>
+          </div>
         </div>
       </div>
     </div>
