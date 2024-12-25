@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="text-green-400">
+    <div className="text-3xl">
       <div></div>
       <div>
         <p>Main Menu</p>
